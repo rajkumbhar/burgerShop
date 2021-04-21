@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    background-color: #f0e3ca;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 13px;
+    float: left;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 10px 2px; 
+}
+
+span {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+p{
+    margin: 5px 5px;
+    font-size: 1rem;
+}
+
+.rating {
+    color: red;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+.rating-number {
+    position: relative;
+    right: -25px;
+    top: -25px;
+    font-size: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.5rem;
+
+    margin: auto;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+
+    padding: 18px 13px 18px 13px;
+
+    position: relative;
+    top: 180px;
+
+}
+
+.card-content {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0.5rem;
+}
+
+.card-content:hover {
+    background-color: #DCDCDC;
+}
+
+@media (max-width: 1024px) {
+    img {
+        height: 90px;
+        width: 90px;
+    }
+    h1 {
+        font-size: 1.2rem; 
+     }
+     span {
+        font-size: 1rem;
+     }
+     p{
+         font-size: 1rem;
+     }
+}
+@media (max-width: 768px) {
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 0.86rem; 
+     }
+     span {
+        font-size: 0.7rem;
+     }
+     p{
+         font-size: 0.7rem;
+     }
+}
+
+@media (max-width: 600px) {
+    img {
+        height: 100px;
+        width: 140px;
+        border-radius: 13px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    /*change*/
+    h1 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin: 30px 2px; 
+    }
+    
+    /*change*/
+    span {
+        clear: left;
+        font-weight: bolder;
+        font-size: 0.9rem;
+    }
+    
+    /*change*/
+    p{
+        clear: left;
+        margin: 5px 5px;
+        font-size: 0.8rem;
+    }
+    
+    .rating {
+        color: red;
+        position: absolute;
+        right: 50px;
+        top: 148px;
+    }
+    
+    .rating-number {
+        position: relative;
+        right: -25px;
+        top: -25px;
+        font-size: 1rem;
+    }  
+}
+
+@media (max-width: 500px) {
+    img {
+        height: 90px;
+        width: 140px;
+        border-radius: 13px;
+    }
+    
+    /*change*/
+    h1 {
+        font-family: 'Ubuntu', sans-serif;
+        clear: left;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin: 0px 2px; 
+    }
+    
+    /*change*/
+    span {
+        clear: left;
+        font-weight: bolder;
+        font-size: 0.7rem;
+    }
+    
+    /*change*/
+    p{
+        clear: left;
+        margin: 5px 5px;
+        font-size: 0.7rem;
+    }
+    
+    .rating {
+        color: red;
+        position: absolute;
+        right: 50px;
+        top: 155px;
+    }
+    
+    .rating-number {
+        position: relative;
+        right: -25px;
+        top: -23px;
+        font-size: 0.8rem;
+    }  
+}
+
+/* input */
+
+
+
+input{
+    width: 85%;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 7px;
+    display:block;
+    position: relative;
+    margin: auto;
+    top: 33px;
+    font-size: 1.2rem;
+    padding-bottom: 2px;
+    margin-bottom: 7px;
+    padding-left: 17px;
+}
+
+
+
+.input-box {
+    border-radius: 12px;
+    height: 310px;
+    width: 600px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    background:rgba(198, 105, 11, 0.687);
+}
+
+@media (max-width: 600px){
+    .input-box {
+        width: 400px;
+        top: 50px;
+    }
+}
+
+/* @media (max-width: 370px){
+    .input-box {
+        width: 300px;
+        height: 240px;
+        top: 50px;
+    }
+
+    input {
+        height: 30px;
+        top: 27px;
+        font-size: 1rem;
+    }
+} */
+
+.input-btn {
+    position: absolute;
+    right: 10px;
+    top: 283px;
+
+    font-size: 2.6rem;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    border: none;
+
+    color: wheat;
+    background-color: #114e60;
+}
+
+/* @media (max-width: 420px){
+    .input-btn{
+        top: 225px;
+        right: 10px;
+
+        width: 50px;
+        height: 50px;
+    }
+} */
+
+
+::-ms-input-placeholder {
+    color: red;
+}
+::placeholder {
+    font-size: 1.2rem;
+    opacity: 0.5;
+    text-align: left;
+    display: block;
+
+}
+
+/*card button*/
+
+.card-delete-btn {
+    position: absolute;
+    right: 55px;
+    top: 85px;
+
+    color: #114e60;
+    background-color: transparent;
+    font-size: 2.6rem;
+    text-align: center;
+
+    border-radius: 70px;
+    border: none;
+}
+
+.card-edit-btn {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+
+    color: #114e60;
+    background-color: transparent;
+    border: none;
+}
