@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/burgerShop/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/burgerShop/static/js/main.ee60a712.chunk.js",
+    "main.js.map": "/burgerShop/static/js/main.ee60a712.chunk.js.map",
+    "runtime-main.js": "/burgerShop/static/js/runtime-main.b099c754.js",
+    "runtime-main.js.map": "/burgerShop/static/js/runtime-main.b099c754.js.map",
+    "static/js/2.9416bb07.chunk.js": "/burgerShop/static/js/2.9416bb07.chunk.js",
+    "static/js/2.9416bb07.chunk.js.map": "/burgerShop/static/js/2.9416bb07.chunk.js.map",
+    "static/js/3.3e2894a4.chunk.js": "/burgerShop/static/js/3.3e2894a4.chunk.js",
+    "static/js/3.3e2894a4.chunk.js.map": "/burgerShop/static/js/3.3e2894a4.chunk.js.map",
+    "index.html": "/burgerShop/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/burgerShop/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.9416bb07.chunk.js.LICENSE.txt": "/burgerShop/static/js/2.9416bb07.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/burgerShop/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b099c754.js",
+    "static/js/2.9416bb07.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.ee60a712.chunk.js"
+  ]
+}
