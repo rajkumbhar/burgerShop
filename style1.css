@@ -316,7 +316,7 @@ input{
     position: relative;
     text-align: left;
     top: 23px;
-    margin-left: 40px;
+    margin: auto;
     font-size: 2rem;
     font-weight: 500;
     color: white;
