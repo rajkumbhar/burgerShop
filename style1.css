@@ -257,7 +257,7 @@ input{
     height: 60px;
     border-radius: 70px;
     border: none;
-
+    outline: none;
     color: rgb(49, 50, 111);
     background-color: rgb(255, 201, 60);
 }
