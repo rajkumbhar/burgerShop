@@ -314,6 +314,7 @@ input{
 
 .company-name {
     position: relative;
+    display: inherit;
     text-align: center;
     top: 23px;
     font-size: 2rem;
