@@ -221,7 +221,8 @@ input{
     position: relative;
     margin: auto;
     top: 100px;
-    background:rgba(198, 105, 11, 0.687);
+    background:rgb(49, 50, 111);
+    box-shadow: rgba(0, 0, 0, 0.39) 1px 1px 10px 2px;
 }
 
 @media (max-width: 600px){
@@ -258,7 +259,7 @@ input{
     border: none;
 
     color: wheat;
-    background-color: #114e60;
+    background-color: rgb(255, 201, 60);
 }
 
 /* @media (max-width: 420px){
@@ -318,6 +319,7 @@ input{
     font-size: 2rem;
     font-weight: 500;
     color: white;
+    text-decoration: none;
 }
 
 .logo-card {
