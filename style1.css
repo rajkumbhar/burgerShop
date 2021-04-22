@@ -314,9 +314,8 @@ input{
 
 .company-name {
     position: relative;
-    text-align: left;
+    text-align: center;
     top: 23px;
-    margin: auto;
     font-size: 2rem;
     font-weight: 500;
     color: white;
