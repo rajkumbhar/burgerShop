@@ -258,7 +258,7 @@ input{
     border-radius: 70px;
     border: none;
 
-    color: wheat;
+    color: rgb(49, 50, 111);
     background-color: rgb(255, 201, 60);
 }
 
@@ -316,6 +316,7 @@ input{
     position: relative;
     text-align: left;
     top: 23px;
+    margin-left: 40px;
     font-size: 2rem;
     font-weight: 500;
     color: white;

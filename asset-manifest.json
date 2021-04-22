@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/burgerShop/static/js/main.cf280e83.chunk.js",
-    "main.js.map": "/burgerShop/static/js/main.cf280e83.chunk.js.map",
+    "main.js": "/burgerShop/static/js/main.3bd125a5.chunk.js",
+    "main.js.map": "/burgerShop/static/js/main.3bd125a5.chunk.js.map",
     "runtime-main.js": "/burgerShop/static/js/runtime-main.f15926d8.js",
     "runtime-main.js.map": "/burgerShop/static/js/runtime-main.f15926d8.js.map",
     "static/js/2.40b005e4.chunk.js": "/burgerShop/static/js/2.40b005e4.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.f15926d8.js",
     "static/js/2.40b005e4.chunk.js",
-    "static/js/main.cf280e83.chunk.js"
+    "static/js/main.3bd125a5.chunk.js"
   ]
 }
